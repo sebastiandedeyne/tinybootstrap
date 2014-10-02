@@ -5,5 +5,5 @@ A stripped down version of sass-bootstrap containing only the grid system and so
 
 ## Build
 ```
-sass --update sass/_tinybootstrap.scss:tinybootstrap.css --sourcemap=none --style expanded && sass --update sass/_tinybootstrap.scss:tinybootstrap.min.css --sourcemap=none --style compressed
+sass --update tinybootstrap/_tinybootstrap.scss:tinybootstrap.css --sourcemap=none --style expanded && sass --update tinybootstrap/_tinybootstrap.scss:tinybootstrap.min.css --sourcemap=none --style compressed
 ```
