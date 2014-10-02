@@ -1,0 +1,14 @@
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == tn {
+    @media (min-width: $screen-xs-min) { @content }
+  }
+  @if $breakpoint == sm {
+    @media (min-width: $screen-sm-min) { @content }
+  }
+  @if $breakpoint == md {
+    @media (min-width: $screen-md-min) { @content }
+  }
+  @if $breakpoint == lg {
+    @media (min-width: $screen-lg-min) { @content }
+  }
+}

@@ -43,34 +43,34 @@
   display: none !important;
 }
 
-.visible-tn-block {
-  @media (max-width: $screen-xs-min - 1) {
-    display: block !important;
-  }
-}
-.visible-tn-inline {
-  @media (max-width: $screen-xs-min - 1) {
-    display: inline !important;
-  }
-}
-.visible-tn-inline-block {
-  @media (max-width: $screen-xs-min - 1) {
-    display: inline-block !important;
-  }
-}
-
 .visible-xs-block {
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-xs-min) {
     display: block !important;
   }
 }
 .visible-xs-inline {
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-xs-min) {
     display: inline !important;
   }
 }
 .visible-xs-inline-block {
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-xs-min) {
+    display: inline-block !important;
+  }
+}
+
+.visible-tn-block {
+  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    display: block !important;
+  }
+}
+.visible-tn-inline {
+  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    display: inline !important;
+  }
+}
+.visible-tn-inline-block {
+  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
     display: inline-block !important;
   }
 }
