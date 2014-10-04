@@ -4,8 +4,12 @@ A stripped down version of sass-bootstrap containing only the grid system and so
 
 ## Extra Features
 
-### 18-column grid
-The default grid is now 18 columns instead of 12.
+### 24-column grid
+The default grid is now 24 columns instead of 12.
+
+### .no-gutter
+
+Class that can be added to an element above your columns to set the gutter to 0.
 
 ### New Breakpoint: 'tn'
 Added a 'tn' breakpoint which is between col-xs-* and col-sm-*. Also works with the responsive utilities.
