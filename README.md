@@ -28,5 +28,5 @@ A mixin to easily add breakpoints in your sass code.
 ## Build
 
 ```
-sass --update tinybootstrap/_tinybootstrap.scss:tinybootstrap.css --sourcemap=none --style expanded && sass --update tinybootstrap/_tinybootstrap.scss:tinybootstrap.min.css --sourcemap=none --style compressed
+sass --update tinybootstrap/_tinybootstrap.scss:dist/tinybootstrap.css --sourcemap=none --style expanded && sass --update tinybootstrap/_tinybootstrap.scss:dist/tinybootstrap.min.css --sourcemap=none --style compressed
 ```
