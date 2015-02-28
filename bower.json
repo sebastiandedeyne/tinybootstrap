@@ -1,0 +1,21 @@
+{
+  "name": "tinybootstrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sebastiandedeyne/tinybootstrap",
+  "authors": [
+    "Sebastian De Deyne <sebastiandedeyne@gmail.com>"
+  ],
+  "description": "A miniature bootstrap fork with some core layout utilities",
+  "keywords": [
+    "sass",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
