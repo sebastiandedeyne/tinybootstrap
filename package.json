@@ -1,0 +1,19 @@
+{
+  "name": "tinybootstrap",
+  "version": "1.0.0",
+  "description": "A stripped down version of sass-bootstrap containing only the grid system and some responsive utilities.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiandedeyne/tinybootstrap.git"
+  },
+  "keywords": [
+    "sass",
+    "bootstrap"
+  ],
+  "author": "Sebastian De Deyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastiandedeyne/tinybootstrap/issues"
+  },
+  "homepage": "https://github.com/sebastiandedeyne/tinybootstrap#readme"
+}
